@@ -6,8 +6,8 @@ The PlebDevs backend development course is designed to teach you the fundamental
 
 ## Getting Started
 
-To get started with the course, simply clone this repository to your local machine. You can then navigate to the lesson-1 directory to access the materials for the first lesson.
+To go through the course material, simply follow the README files or slideshow PDF's lesson by lesson.
 
 ## Lesson 1: Introduction to Node.js
 
-In the first lesson, you'll learn the basics of Node.js and how to use it to build a simple web server. You'll also learn how to use the npm package manager to install and manage dependencies, and how to use the nodemon package to automatically restart your server whenever you make changes to your code.
+In the first lesson, you'll learn the basics of Node.js, working with NodeJs modules, and we'll talk about the differences between building in a web environment vs the server environment.
