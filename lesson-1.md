@@ -96,11 +96,9 @@ console.log(greeting);
 const fs = require('fs');
 
 fs.readFile('example.txt', 'utf8', ( _err_ , _data_ ) => {
+    if ( _err_ ) throw _err_ ;
 
-if ( _err_ ) throw _err_ ;
-
-console.log( _data_ );
-
+    console.log( _data_ );
 });
 ```
 
@@ -147,22 +145,22 @@ console.log(`Bitcoin address: ${address}`);
 ```
 const readline = require('readline');
 
-_// Create an interface for reading input from the console_
+// Create an interface for reading input from the console
 const rl = readline.createInterface({
-input: process.stdin,
-output: process.stdout
+    input: process.stdin,
+    output: process.stdout
 });
 
-_// Get the current date and time_
+// Get the current date and time
 const now = new Date();
 
-_// Ask the user for their name_
+// Ask the user for their name
 rl.question('What is your name? ', ( _name_ ) => {
-_// Display the greeting and current date and time_
-console.log(`Hello, ${ _name_ }! The current date and time is ${now.toString()}.`);
+    // Display the greeting and current date and time
+    console.log(`Hello, ${ _name_ }! The current date and time is ${now.toString()}.`);
 
-_// Close the readline interface_
-rl.close();
+    // Close the readline interface
+    rl.close();
 });
 ```
 
