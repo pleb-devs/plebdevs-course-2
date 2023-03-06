@@ -1,6 +1,4 @@
-# Lesson 1 Learn
-
-# NodeJS
+# Lesson 1 Learn NodeJS
 
 ### Intro to NodeJS and the server environment
 
