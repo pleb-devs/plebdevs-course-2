@@ -54,12 +54,12 @@
 
 ## Node package manager (npm)
 
-● NPM is a package manager for JavaScript that allows developers to easily install
+- NPM is a package manager for JavaScript that allows developers to easily install
 and manage third-party packages (i.e., libraries, frameworks, tools, etc.)
-● NPM provides a centralized repository of over 1 million open-source packages
+- NPM provides a centralized repository of over 1 million open-source packages
 that can be installed using a simple command-line interface, making it easy to find
 and use pre-built code
-● NPM also allows developers to easily share their own packages with the
+- NPM also allows developers to easily share their own packages with the
 community making it globally available and open source
 
 
