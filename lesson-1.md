@@ -79,12 +79,12 @@ with the file system.
 
 ## Using your own modules
 ```
-_// greeting.js_
+// greeting.js
 const greeting = "Hello, World!";
 
 module.exports = greeting;
 
-_// index.js_
+// index.js
 const greeting = require('./greeting');
 
 console.log(greeting);
