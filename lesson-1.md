@@ -78,7 +78,7 @@ with the file system.
 
 
 ## Using your own modules
-
+```
 _// greeting.js_
 const greeting = "Hello, World!";
 
@@ -88,10 +88,11 @@ _// index.js_
 const greeting = require('./greeting');
 
 console.log(greeting);
-
+```
 
 ## Using Node’s built in modules
 
+```
 const fs = require('fs');
 
 fs.readFile('example.txt', 'utf8', ( _err_ , _data_ ) => {
@@ -101,10 +102,11 @@ if ( _err_ ) throw _err_ ;
 console.log( _data_ );
 
 });
-
+```
 
 ## Using someone else’s module!
 
+```
 const bitcoin = require('bitcoinjs-lib');
 
 const keyPair = bitcoin.ECPair.makeRandom();
@@ -112,7 +114,7 @@ const keyPair = bitcoin.ECPair.makeRandom();
 const address = keyPair.getAddress();
 
 console.log(`Bitcoin address: ${address}`);
-
+```
 
 # Mini Project
 
@@ -142,6 +144,7 @@ console.log(`Bitcoin address: ${address}`);
 
 ## Reading input from the console
 
+```
 const readline = require('readline');
 
 _// Create an interface for reading input from the console_
@@ -161,7 +164,7 @@ console.log(`Hello, ${ _name_ }! The current date and time is ${now.toString()}.
 _// Close the readline interface_
 rl.close();
 });
-
+```
 
 ## Overview of the code
 
