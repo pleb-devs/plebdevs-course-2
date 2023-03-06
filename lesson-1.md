@@ -34,9 +34,7 @@
     and API and a database)
 
 
-# Let’s get our hands
-
-# dirty!
+# Let’s get our hands dirty!
 
 ### What do we need to know to get started writing some NodeJS
 
