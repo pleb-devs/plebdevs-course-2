@@ -112,28 +112,24 @@ console.log(`Bitcoin address: ${address}`);
 
 # Mini Project
 
-#### A command-line application that greets the user and displays the
-
-#### current date and time
+#### A command-line application that greets the user and displays the current date and time
 
 
 ## Setup a NodeJS project locally
 
 ##### To set up a new Node.js project, follow these steps:
 
-##### ● Create a new directory for your project by running the following command in the
+- Create a new directory for your project by running the following command in the terminal: `mkdir hello-node`
 
-##### terminal: mkdir hello-node
+- Navigate into the new directory by running: `cd hello-node`
 
-##### ● Navigate into the new directory by running: cd hello-node
+- Initialize a new Node.js project by running: `npm init -y`
 
-##### ● Initialize a new Node.js project by running: npm init -y
+- Create an index.js file either in your code editor or by running `touch index.js`
 
-##### ● Create an index.js file either in your code editor or by running touch index.js
+- You can now put `console.log("Hello, world!")` in index.js
 
-##### ● You can now put console.log("Hello, world!") in index.js
-
-##### ● In your terminal run node index.js to run your code!
+- In your terminal run `node index.js` to run your code!
 
 
 ## Reading input from the console
