@@ -191,19 +191,19 @@ available through npm. This will help you streamline your development process
 
 ## Resources
 
-1. Node.js Official Documentation - The official Node.js documentation provides a
+1. [Node.js Official Documentation](https://nodejs.org/en/docs/) - The official Node.js documentation provides a
     comprehensive guide to getting started with Node.js, including installation, basic usage, and
     more advanced topics.
-2. Node.js Crash Course on YouTube - This 1-hour crash course video provides a
+2. [Node.js Crash Course on YouTube](https://www.youtube.com/watch?v=fBNz5xF-Kx4) - This 1-hour crash course video provides a
 beginner-friendly introduction to Node.js and covers the basics of building a simple web
 server.
-3. Node.js Best Practices - a GitHub repository with a collection of best practices for Node.js
+3. [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - a GitHub repository with a collection of best practices for Node.js
 development, covering topics such as code organization, error handling, and testing.
-4. Learn Node.js on Codecademy - Codecademy's Node.js course is a hands-on tutorial that
+4. [Learn Node.js on Codecademy](https://www.codecademy.com/learn/learn-node-js) - Codecademy's Node.js course is a hands-on tutorial that
 guides you through building a complete web application with Node.js and Express.
-5. Node.js Tutorials on TutorialsPoint - TutorialsPoint provides a collection of Node.js tutorials
+5. [Node.js Tutorials on TutorialsPoint](https://www.tutorialspoint.com/nodejs/index.htm) - TutorialsPoint provides a collection of Node.js tutorials
 that cover the basics of Node.js, as well as more advanced topics like Node.js with MongoDB
 and Node.js with MySQL.
-6. Node.js Basics Cheat Sheet - This cheat sheet provides a quick reference to the basics of
+6. [Node.js Basics Cheat Sheet](https://overapi.com/nodejs) - This cheat sheet provides a quick reference to the basics of
 Node.js, including installing Node.js, running Node.js programs, and using the built-in
 modules.
