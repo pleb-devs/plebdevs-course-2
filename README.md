@@ -15,81 +15,86 @@ To go through the course material, simply follow the README files or slideshow P
 
 In the first lesson, you'll learn the basics of Node.js, working with NodeJs modules, and we'll talk about the differences between building in a web environment vs the server environment.
 
-## Lesson 2: Learning Express
+## Lesson 2: Learn Express
 
-- [Lesson 2 README](#)
-- [Lesson 2 slides](#)
+- [Lesson 2 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-2.md)
+- [Lesson 2 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-2.pdf)
 
 Lesson 2 will introduce you to Express.js, a popular Node.js framework. You'll learn about creating routes, handling requests, and sending responses.
 
-## Lesson 3: Express Router and Middleware
+## Lesson 3: Learn Express Router
 
-- [Lesson 3 README](#)
-- [Lesson 3 slides](#)
+- [Lesson 3 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-3.md)
+- [Lesson 3 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-3.pdf)
+
+Lesson 3 will introduce you to more advanced API routing in Express.js
+
+## Lesson 4: Learn Express Middleware
+
+- [Lesson 4 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-4.md)
+- [Lesson 4 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-4.pdf)
 
 This lesson dives into the Express Router and how to use middleware for code organization and reusability in your web applications.
 
-## Lesson 4: Authentication with Express
+## Lesson 5: Authentication with Express
 
-- [Lesson 4 README](#)
-- [Lesson 4 slides](#)
+- [Lesson 5 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-5.md)
+- [Lesson 5 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-5.pdf)
 
-In Lesson 4, you'll learn about implementing authentication in your Express applications, covering both session-based and token-based authentication methods.
+In Lesson 5, you'll learn about implementing authentication in your Express applications, covering both session-based and token-based authentication methods.
 
-## Lesson 5: Introduction to the Lightning Network
+## Lesson 6: Introduction to the Lightning Network
 
-- [Lesson 5 README](#)
-- [Lesson 5 slides](#)
+- [Lesson 6 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-6.md)
+- [Lesson 6 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-6.pdf)
 
 This lesson introduces the Lightning Network, explaining how it works and how you can build applications on top of it.
 
-## Lesson 6: Building on LND
+## Lesson 7: Building on LND
 
-- [Lesson 6 README](#)
-- [Lesson 6 slides](#)
+- [Lesson 7 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-7.md)
+- [Lesson 7 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-7.pdf)
 
-Lesson 6 focuses on building on top of LND (Lightning Network Daemon), including setting up and interacting with an LND node.
+Lesson 7 focuses on building on top of LND (Lightning Network Daemon), including setting up and interacting with an LND node.
 
-## Lesson 7: Introduction to Databases
+## Lesson 8: Introduction to Databases
 
-- [Lesson 7 README](#)
-- [Lesson 7 slides](#)
+- [Lesson 8 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-8.md)
+- [Lesson 8 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-8.pdf)
 
-In Lesson 7, you'll be introduced to databases, with a focus on the types of databases and how they integrate with backend applications.
+In Lesson 8, you'll be introduced to databases, with a focus on the types of databases and how they integrate with backend applications.
 
-## Lesson 8: Introduction to SQL
+## Lesson 9: Introduction to SQL
 
-- [Lesson 8 README](#)
-- [Lesson 8 slides](#)
+- [Lesson 9 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-9.md)
+- [Lesson 9 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-9.pdf)
 
-Lesson 8 covers the basics of SQL, the language used to interact with relational databases, and how to perform common database operations.
+Lesson 9 covers the basics of SQL, the language used to interact with relational databases, and how to perform common database operations.
 
-## Lesson 9: Database Development with Knex.js
+## Lesson 10: Database Development with Knex.js
 
-- [Lesson 9 README](#)
-- [Lesson 9 slides](#)
+- [Lesson 10 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-10.md)
+- [Lesson 10 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-10.pdf)
 
 This lesson teaches you how to use Knex.js, a SQL query builder for Node.js, which helps with building database queries in a more readable and maintainable way.
 
-## Lesson 10: Connecting the API to the Database
+## Lesson 11: Connecting the API to the Database
 
-- [Lesson 10 README](#)
-- [Lesson 10 slides](#)
+- [Lesson 11 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-11.md)
+- [Lesson 11 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-11.pdf)
 
-In Lesson 10, you'll learn how to connect your API endpoints to the database to perform CRUD (Create, Read, Update, Delete) operations.
+In Lesson 11, you'll learn how to connect your API endpoints to the database to perform CRUD (Create, Read, Update, Delete) operations.
 
-## Lesson 11: Connecting to the Frontend App
+## Lesson 12: Connecting to the Frontend App
 
-- [Lesson 11 README](#)
-- [Lesson 11 slides](#)
+- [Lesson 12 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-12.md)
+- [Lesson 12 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-12.pdf)
 
-Lesson 11 focuses on connecting the backend server to a frontend application, covering topics such as CORS, JSON handling, and API design.
+Lesson 12 focuses on connecting the backend server to a frontend application, covering topics such as CORS, JSON handling, and API design.
 
-## Lesson 12: Deploying the Production Database and Lightning Node
+## Lesson 13: Deploying the Production Database and Lightning Node
 
-- [Lesson 12 README](#)
-- [Lesson 12 slides](#)
+- [Lesson 13 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-13.md)
+- [Lesson 13 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-13.pdf)
 
 In the final lesson, you'll learn about deploying your production-ready database and setting up a Lightning node to work with your application.
-
-Remember to replace the `#` placeholders with the actual URLs to the lesson READMEs and slides as they become available.
