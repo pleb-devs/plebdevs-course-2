@@ -8,6 +8,9 @@ The PlebDevs backend development course is designed to teach you the fundamental
 
 To go through the course material, simply follow the README files or slideshow PDF's lesson by lesson.
 
+## Completed code
+The fully completed project from the course can be found here: [https://github.com/AustinKelsay/pleb-wallet-backend](https://github.com/AustinKelsay/pleb-wallet-backend)
+
 ## Lesson 1: Introduction to Node.js
 
 - [Lesson 1 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-1.md)
