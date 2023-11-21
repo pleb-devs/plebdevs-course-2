@@ -1,14 +1,34 @@
-# Lesson 2 Learn Express basics
-Servers / HTTP API / CRUD
+# Lesson 2 Learn
+
+# Express basics
+
+## Servers / HTTP API / CRUD
 
 
 ## What are HTTP API’s?
 
-  ● An HTTP API is a web-based interface that allows communication between different systems or applications over the internet.
+### ● An HTTP API is a web-based interface that allows communication
 
-  ● It uses the HTTP protocol to define a set of rules and standards for sending and receiving messages between client and server.
+### between different systems or applications over the internet.
 
-  ● The API provides a standardized way for different applications to interact with each other, without requiring direct access to the source code or internal workings of the application.
+### ● API = “Application programming interface”
+
+### ● It uses the HTTP protocol to define a set of rules and standards for
+
+### sending and receiving messages between client and server.
+
+### ● The API provides a standardized way for different applications to interact
+
+### with each other, without requiring direct access to the source code or
+
+### internal workings of the application.
+
+
+### At a high level the API is just an interface for talking to our server using the
+
+### http protocol
+
+## What are HTTP API’s?
 
 
 ## What we know about API calls from course 1
@@ -19,47 +39,41 @@ Servers / HTTP API / CRUD
 
 ## API endpoints and CRUD operations
 
-##### ● HTTP APIs typically expose a set of endpoints that can be accessed by clients
+###### ● HTTP APIs typically expose a set of ‘endpoints’ that can be accessed by clients
 
-##### using HTTP methods such as GET, POST, PUT, and DELETE.
+###### using HTTP methods such as GET, POST, PUT, and DELETE.
 
-##### ● These endpoints provide access to specific resources or functionalities of the
+###### ● These endpoints provide access to specific resources or functionalities of the
 
-##### application, and can be used to create, retrieve, update, or delete data. (CRUD)
+###### application, and can be used to create, retrieve, update, or delete data. (CRUD)
 
-##### ● HTTP APIs can be used for a variety of purposes, such as integrating different
+###### ● HTTP APIs can be used for a variety of purposes, such as integrating different
 
-##### systems, enabling cross-platform communication, and building web
+###### systems, enabling cross-platform communication, and building web
 
-##### applications or services.
+###### applications or services.
 
-##### ● An open API is the way to have an open database
+###### ● An open API is the way to have an open database
 
 
-##### "Building an Express server is like riding a bike - except the bike is on fire, and
+###### "Building an Express server is like riding a bike - except the bike is on fire, and
 
-##### the road is also on fire, and everything is on fire because you're using
+###### the road is also on fire, and everything is on fire because you're using
 
-##### JavaScript" - probably Steve Jobs
+###### JavaScript" - probably Steve Jobs
 
 # Let’s build our first
 
 # Express Server!
 
 
-###### To set up a new Node.js project, follow these steps:
-
-###### ● Create a new directory for your project by running the following command in the terminal:
-
-###### mkdir pleb-wallet-backend
-
-###### ● Navigate into the new directory by running: cd pleb-wallet-backend
-
-###### ● Initialize a new Node.js project by running: npm init -y
-
-###### ● Create a file called “index.js” by running touch index.js
-
-###### ● Install express by running npm i express
+To set up a new Node.js project, follow these steps:
+● Create a new directory for your project by running the following command in the terminal:
+mkdir pleb-wallet-backend
+● Navigate into the new directory by running: cd pleb-wallet-backend
+● Initialize a new Node.js project by running: npm init -y
+● Create a file called “index.js” by running touch index.js
+● Install express by running npm i express
 
 ## Setting up our local environment
 
@@ -75,13 +89,13 @@ server.get("/", ( _req_ , _res_ ) => {
 _// Send a JSON response with a "message" property set to "I'm alive!"
 res_ .status( 200 ).json({ message: "I'm alive!" });
 });
-_// Set the server to listen on the provided port, or 5000 if no port is specified_
+_// Set the server to listen on the provided port, or 5500 if no port is specified_
 const PORT = process.env.PORT || 5500 ;
 server.listen(PORT, () => {
 _// Log a message to the console when the server starts listening_
 console.log(`Server listening on port ${PORT}`);
 
-#### });
+##### });
 
 
 ## Calling our new API endpoint
@@ -90,49 +104,49 @@ console.log(`Server listening on port ${PORT}`);
 - You should see this message “Server listening on port 5500”
 - Now you can go into either Insomnia or Postman and make a GET request to
 
-##### “http://localhost:5000”
+###### “http://localhost:5500”
 
-##### Success!
+###### Success!
 
 
 ## The elements of an Express endpoint
 
 - The req and res parameters in the route handler function represent the
 
-### request and response objects, respectively.
+#### request and response objects, respectively.
 
 - The req object contains information about the incoming request, such
 
-### as the URL, HTTP headers, and any data sent in the request body.
+#### as the URL, HTTP headers, and any data sent in the request body.
 
 - The res object is used to send a response back to the client, such as
 
-### setting the response status code and sending data in the response
+#### setting the response status code and sending data in the response
 
-### body.
+#### body.
 
 
 ## Review
 
 - Express is a popular Node.js web application framework that allows us to build
 
-##### powerful, scalable and modular web applications.
+###### powerful, scalable and modular web applications.
 
 - HTTP API stands for Hypertext Transfer Protocol Application Programming Interface,
 
-##### it is a set of guidelines for building web applications and provides a way for different
+###### it is a set of guidelines for building web applications and provides a way for different
 
-##### software applications to communicate with each other.
+###### software applications to communicate with each other.
 
 - CRUD stands for Create, Read, Update, and Delete, which are the four basic
 
-##### functions that we can perform on a database.
+###### functions that we can perform on a database.
 
 - In Express, the req and res objects are used to handle HTTP requests and responses
 
-##### respectively. The req object represents the incoming HTTP request from the client,
+###### respectively. The req object represents the incoming HTTP request from the client,
 
-##### and the res object represents the outgoing HTTP response from the server.
+###### and the res object represents the outgoing HTTP response from the server.
 
 
 ## Resources
@@ -140,14 +154,14 @@ console.log(`Server listening on port ${PORT}`);
 - Official Express.js documentation - https://expressjs.com/
 - MDN Web Docs: Express web framework (Node.js/JavaScript) -
 
-##### https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
+###### https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
 
 - Express.js tutorial for beginners -
 
-##### https://www.tutorialspoint.com/expressjs/index.htm
+###### https://www.tutorialspoint.com/expressjs/index.htm
 
 - Express Cheatsheet - https://devhints.io/express
 - Express.js Crash Course - https://www.youtube.com/watch?v=L72fhGm1tfE
 - Learn Express - FreeCodeCamp.org -
 
-##### https://www.freecodecamp.org/news/learn-express-js-in-2021/
+###### https://www.freecodecamp.org/news/learn-express-js-in-2021/
