@@ -9,7 +9,6 @@
 
 ### Who am I?
 
-```
 I’m Austin I go by @bitcoinplebdev
 online
 I’m a mostly self taught developer
@@ -17,16 +16,14 @@ though I went through a fullstack
 bootcamp as well as the Base
 Transactions bootcamp
 I work on Bitcoin/Lightning/Nostr/FOSS
-```
-```
+
 I work out of PlebLab in Austin, Texas,
 and am involved in the Bitcoin/Lightning
 dev scene here
-```
-```
+
 I helped create the PlebDevs Lightning
 course and I run the PlebDevs community
-```
+
 
 # ⚡
 
@@ -76,11 +73,8 @@ course and I run the PlebDevs community
 - A database with SQLite and Postgres
 - Hosting an LND Lightning node with
     Voltage
-- A connection to our Lightning node
+- A connection to our Lightning node using LND-GRPC
 
-```
-using LND-GRPC
-```
 ### What we will build in this course
 
 ```
