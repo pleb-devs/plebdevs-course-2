@@ -247,69 +247,85 @@ Event streams!
 
 #### Build an Invoice event stream
 ```javascript
-const invoiceEventStream = async () => { await grpc.services.Lightning.subscribeInvoices({ add_index: 0 , settle_index: 0 , }) .on("data", async ( data ) => { if ( data .settled) { // Check if the invoice exists in the database const existingInvoice = False; // If the invoice exists, update it in the database if (existingInvoice) { // update db } else { console.log("Invoice not found in the database"); } } }) .on("error", ( err ) => { console.log( err ); }); };
+const invoiceEventStream = async () => {
+    await grpc.services.Lightning.subscribeInvoices({ add_index: 0, settle_index: 0 })
+        .on("data", async (data) => {
+            if (data.settled) {
+                // Check if the invoice exists in the database
+                const existingInvoice = false;
+                
+                // If the invoice exists, update it in the database
+                if (existingInvoice) {
+                    // update db
+                } else {
+                    console.log("Invoice not found in the database");
+                }
+            }
+        })
+        .on("error", (err) => {
+            console.log(err);
+        });
+};
 ```
 
 #### Start the invoice event stream when connecting
 ```javascript
 const connect = async () => {
-  try {
-    await lnd.connect(); // Start the invoice event stream on successful connection
-    // We want to always be listening for invoice events while the server is running
-    invoiceEventStream();
-    console.log("LND gRPC client is ready to use");
-  } catch (e) {
-    console.log("error", e);
-  }
+    try {
+        await lnd.connect(); 
+        invoiceEventStream(); // Start the invoice event stream on successful connection
+        console.log("LND gRPC client is ready to use");
+    } catch (e) {
+        console.log("error", e);
+    }
 };
 
-const { getBalance, createInvoice, getChannelBalance, payInvoice, } = require("../lnd.js");
+const { getBalance, createInvoice, getChannelBalance, payInvoice } = require("../lnd.js");
 
 // GET the onchain balance
-router.get("/balance", ( req , res ) => {
-  getBalance().then(( balance ) => {
-    res .status( 200 ).json( balance );
-  }).catch(( err ) => {
-  res .status( 500 ).json( err );
+router.get("/balance", (req, res) => {
+    getBalance().then((balance) => {
+        res.status(200).json(balance);
+    }).catch((err) => {
+        res.status(500).json(err);
     });
 });
 ```
 
-#### Add the balance endpoint in lightningRouter
 #### Add the channelBalance in lightningRouter
 ```javascript
 // GET the lightning wallet balance
-router.get("/channelbalance", ( req , res ) => {
-  getChannelBalance().then(( channelBalance ) => {
-    res.status( 200 ).json( channelBalance );
-  }).catch(( err ) => {
-    res.status( 500 ).json( err );
-  });
+router.get("/channelbalance", (req, res) => {
+    getChannelBalance().then((channelBalance) => {
+        res.status(200).json(channelBalance);
+    }).catch((err) => {
+        res.status(500).json(err);
+    });
 });
 ```
 #### Add POST endpoint for creating an invoice
 
 ```javascript
 // POST required info to create an invoice
-router.post("/invoice", authenticate, ( req , res ) => {
-  const { value, memo } = req.body;
-  createInvoice({ value, memo, user_id }).then(( invoice ) => {
-    res.status( 200 ).json( invoice );
-  }).catch(( err ) => {
-    res.status( 500 ).json( err );
-  });
+router.post("/invoice", authenticate, (req, res) => {
+    const { value, memo } = req.body;
+    createInvoice({ value, memo, user_id }).then((invoice) => {
+        res.status(200).json(invoice);
+    }).catch((err) => {
+        res.status(500).json(err);
+    });
 });
 
 // POST an invoice to pay
-router.post("/pay", authenticateAdmin, async ( req , res ) => {
-  const { payment_request } = req.body;
-  const pay = await payInvoice({ payment_request });
-  if (pay.payment_error) {
-    res.status( 500 ).json(pay.payment_error);
-  }
-  if (pay?.payment_route) {
-    // Save to DB
-    res.status( 200 ).json(pay);
+router.post("/pay", authenticateAdmin, async (req, res) => {
+    const { payment_request } = req.body;
+    const pay = await payInvoice({ payment_request });
+    if (pay.payment_error) {
+        res.status(500).json(pay.payment_error);
+    }
+    if (pay?.payment_route) {
+        // Save to DB
+        res.status(200).json(pay);
     }
 });
 ```
