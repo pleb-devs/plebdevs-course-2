@@ -11,45 +11,50 @@ To go through the course material, simply follow the README files or slideshow P
 ## Completed code
 The fully completed project from the course can be found here: [https://github.com/AustinKelsay/pleb-wallet-backend](https://github.com/AustinKelsay/pleb-wallet-backend)
 
+## Lesson 0: Introduction to the course
+
+- [Lesson 0 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-0.pdf)
+- [Lesson 0 link to slides](https://docs.google.com/presentation/d/1S_ZKZFXtKrsIExZASBOqD7Jjb23-Ht22e2PxNdzB1ro/edit?usp=sharing)
+
 ## Lesson 1: Introduction to Node.js
 
-- [Lesson 1 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-1.md)
 - [Lesson 1 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-1.pdf)
+- [Lesson 1 link to slides](https://docs.google.com/presentation/d/1eOUZ86R34oNiWEHRW70N5d-2qDuSQVkHmG6xi6ajBHc/edit?usp=sharing)
 
 In the first lesson, you'll learn the basics of Node.js, working with NodeJs modules, and we'll talk about the differences between building in a web environment vs the server environment.
 
 ## Lesson 2: Learn Express
 
-- [Lesson 2 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-2.md)
 - [Lesson 2 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-2.pdf)
+- [Lesson 2 link to slides](https://docs.google.com/presentation/d/1S_ZKZFXtKrsIExZASBOqD7Jjb23-Ht22e2PxNdzB1ro/edit?usp=sharing)
 
 Lesson 2 will introduce you to Express.js, a popular Node.js framework. You'll learn about creating routes, handling requests, and sending responses.
 
 ## Lesson 3: Learn Express Router
 
-- [Lesson 3 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-3.md)
 - [Lesson 3 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-3.pdf)
+- [Lesson 3 link to slides](https://docs.google.com/presentation/d/1S_ZKZFXtKrsIExZASBOqD7Jjb23-Ht22e2PxNdzB1ro/edit?usp=sharing)
 
 Lesson 3 will introduce you to more advanced API routing in Express.js
 
 ## Lesson 4: Learn Express Middleware
 
-- [Lesson 4 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-4.md)
 - [Lesson 4 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-4.pdf)
+- [Lesson 4 link to slides](https://docs.google.com/presentation/d/1S_ZKZFXtKrsIExZASBOqD7Jjb23-Ht22e2PxNdzB1ro/edit?usp=sharing)
 
 This lesson dives into the Express Router and how to use middleware for code organization and reusability in your web applications.
 
 ## Lesson 5: Authentication with Express
 
-- [Lesson 5 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-5.md)
 - [Lesson 5 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-5.pdf)
+- [Lesson 5 link to slides](https://docs.google.com/presentation/d/1S_ZKZFXtKrsIExZASBOqD7Jjb23-Ht22e2PxNdzB1ro/edit?usp=sharing)
 
 In Lesson 5, you'll learn about implementing authentication in your Express applications, covering both session-based and token-based authentication methods.
 
 ## Lesson 6: Introduction to the Lightning Network
 
-- [Lesson 6 README](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-6.md)
 - [Lesson 6 slides](https://github.com/pleb-devs/plebdevs-course-2/blob/main/lesson-6.pdf)
+- [Lesson 6 link to slides](https://docs.google.com/presentation/d/1S_ZKZFXtKrsIExZASBOqD7Jjb23-Ht22e2PxNdzB1ro/edit?usp=sharing)
 
 This lesson introduces the Lightning Network, explaining how it works and how you can build applications on top of it.
 
