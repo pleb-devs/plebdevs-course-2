@@ -1,4 +1,4 @@
-# Pleb Devs Backend Course
+# PlebDevs Backend Course
 
 Welcome to the Pleb Devs Backend Course repository! This repository contains materials and resources for our backend web development course.
 
