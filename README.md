@@ -4,6 +4,8 @@ Welcome to the Pleb Devs Backend Course repository! This repository contains mat
 
 The PlebDevs backend development course is designed to teach you the fundamentals of backend development with a focus on building fullstack Lightning applications.
 
+![plebdevs-thumbnail](https://github.com/pleb-devs/plebdevs-course-2/assets/53542748/466d2993-8c88-4362-804a-3ea3ca4c3bef)
+
 ## Getting Started
 
 To go through the course material, simply follow the README files or slideshow PDF's lesson by lesson.
